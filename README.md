@@ -17,13 +17,12 @@ Here are the classes in the dataset, as well as 10 random images from each:
 
 ## Training an Image Classifier in Pytorch
 
-
-    Load and normalizing the CIFAR10 training and test datasets using torchvision
-    Define a Convolution Neural Network
-    Define a loss function
-    Add GPU and CUDA support
-    Train the network on the training data
-    Test the network on the test data
+   1. Load and normalizing the CIFAR10 training and test datasets using torchvision
+   2. Define a Convolution Neural Network
+   3. Define a loss function
+   4. Add GPU and CUDA support
+   5. Train the network on the training data
+   6. Test the network on the test data
 
 
 ## Software and Libraries
