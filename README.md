@@ -15,20 +15,16 @@ Here are the classes in the dataset, as well as 10 random images from each:
 ![alt text](https://pytorch.org/tutorials/_images/cifar10.png)
 
 
-## Usage
+## Training an Image Classifier in Pytorch
 
-mnist makes it easier to download and parse MNIST files.
 
-To automatically download the train files, and display the first image in the
-dataset, you can simply use:
+    Load and normalizing the CIFAR10 training and test datasets using torchvision
+    Define a Convolution Neural Network
+    Define a loss function
+    Add GPU and CUDA support
+    Train the network on the training data
+    Test the network on the test data
 
-```python
-import mnist
-import scipy.misc
-
-images = mnist.train_images()
-scipy.misc.toimage(scipy.misc.imresize(images[0,:,:] * -1 + 256, 10.))
-```
 
 ## Software and Libraries
 
@@ -36,5 +32,5 @@ This project uses the following software and Python libraries:
 
 * [Python](https://www.python.org/downloads/release/python-364/)
 * [NumPy](http://www.numpy.org/)
-* [scipy](https://www.scipy.org/)
+* [PyTorch](https://pytorch.org/)
 * [matplotlib](https://matplotlib.org/)
